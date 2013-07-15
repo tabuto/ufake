@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Benvenuto in <%= title %></p>
+    <form action="/send" method="POST">
+		<input type="text" length="140" name="image_url">
+		<input type="submit" value="Vai">
+	</form>
+  </body>
+</html>
