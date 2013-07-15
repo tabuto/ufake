@@ -8,7 +8,7 @@ app.configure(function(){
 	app.set("view options",{layout: false});
 	app.set('view engine', 'ejs');
 	app.use(express.cookieParser());
-	app.use(express.session({secret: '1234567890QWERTY'}));
+	app.use(express.session({secret: '1234567890QWERTYs'}));
 });
 
 var google = 'https://www.google.com/searchbyimage';
